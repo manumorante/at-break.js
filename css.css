@@ -1,0 +1,17 @@
+@import "//cdnjs.cloudflare.com/ajax/libs/font-awesome/4.2.0/css/font-awesome.min.css";
+
+body {
+  background-color: #7a95af;
+  color: #fafbfc;
+}
+
+h3 {
+  font-weight: normal;
+}
+h3 span {
+  font-family: courier;
+  color: #7a95af;
+  background-color: #fafbfc;
+  padding: 5px 10px;
+  display: inline-block;
+}
