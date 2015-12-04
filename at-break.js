@@ -1,21 +1,8 @@
-$(document).ready(function() { setLayout(); });
-$(window).resize(function(e) { setLayout() });
-
-function setLayout(){
-  $(".info-window").html($(window).width() +" x "+ $(window).height() +" px");
-  $(".info-container").html($(".container").width() +" x "+ $(".container").height() +" px");
-  $(".breakpoint").html(
-    breakpoint().horizontal +"<sup>"+ breakpoint().horizontalValue +"</sup> x "+ breakpoint().vertical +"<sup>"+ breakpoint().verticalValue +"</sup>"
-    );
-  }
-
-/*
-  MM Breakpoint v1
-  Manu Morante
-  21/05/2014
-*/
-
-// Breakpoint
+/**
+ * At-Break
+ * Manu Morante
+ * 21/05/2014
+ */
 function breakpoint(){
   // Media Query Horizontal Breakpoints Values (mobile first)
   var hor_xs = 480,   // Xtra Small
@@ -53,4 +40,3 @@ function breakpoint(){
     verticalValue: ver_val
   };
 };
-  
